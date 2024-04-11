@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-11T02:07:54.381Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="xTBLkcZAPztQUPPeHty8" version="24.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-11T02:50:53.766Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="pZimzaIYqNMBIXpYPb7b" version="24.2.3" type="github">
   <diagram name="Page-1" id="9DyKg4T394X26kreyuBQ">
     <mxGraphModel dx="2261" dy="1907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -197,7 +197,7 @@
             <mxRectangle width="50" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QdFxv_SIWKZ_LwmQHkhb-82" value="Data JSON (nvarchar(max))" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;" parent="QdFxv_SIWKZ_LwmQHkhb-80" vertex="1">
+        <mxCell id="QdFxv_SIWKZ_LwmQHkhb-82" value="Data JSON (nvarchar(max)?)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;" parent="QdFxv_SIWKZ_LwmQHkhb-80" vertex="1">
           <mxGeometry x="50" width="240" height="30" as="geometry">
             <mxRectangle width="240" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -210,7 +210,7 @@
             <mxRectangle width="50" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QdFxv_SIWKZ_LwmQHkhb-91" value="TemplateId (int)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;" parent="QdFxv_SIWKZ_LwmQHkhb-89" vertex="1">
+        <mxCell id="QdFxv_SIWKZ_LwmQHkhb-91" value="TemplateId (int?)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;html=1;whiteSpace=wrap;" parent="QdFxv_SIWKZ_LwmQHkhb-89" vertex="1">
           <mxGeometry x="50" width="240" height="30" as="geometry">
             <mxRectangle width="240" height="30" as="alternateBounds" />
           </mxGeometry>
