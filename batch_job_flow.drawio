@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-28T23:38:50.854Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="xIA0uNln5LI9ElG0SWn8" version="24.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-28T23:50:20.398Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="18zeJGZ3erlJYGqNOI-V" version="24.4.9" type="github">
   <diagram name="Page-1" id="SyXa-uzE85n85rMRMzLK">
     <mxGraphModel dx="2606" dy="1935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -301,7 +301,7 @@
         <mxCell id="1Izx30Ujem4wy27GTAxK-64" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;ValidateUser&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1640" y="-310" width="170" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="1Izx30Ujem4wy27GTAxK-65" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;ValidateJob&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="1Izx30Ujem4wy27GTAxK-65" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;ValidateJob&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;font color=&quot;#ff6933&quot;&gt;IsLocked Or IsDeleted&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1434" y="-310" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="1Izx30Ujem4wy27GTAxK-66" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;ValidateJobDispatchDate&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
