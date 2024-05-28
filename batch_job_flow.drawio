@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-28T23:50:20.398Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="18zeJGZ3erlJYGqNOI-V" version="24.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-28T23:53:39.697Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="MAUdDS65oqoXHwwVlM-0" version="24.4.9" type="github">
   <diagram name="Page-1" id="SyXa-uzE85n85rMRMzLK">
-    <mxGraphModel dx="2606" dy="1935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1462" dy="1347" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -298,17 +298,25 @@
         <mxCell id="1Izx30Ujem4wy27GTAxK-63" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;ValidateAssignJobToUser&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;i&gt;Basic Job and User validation&lt;/i&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1980" y="-140" width="210" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="1Izx30Ujem4wy27GTAxK-64" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;ValidateUser&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="1Izx30Ujem4wy27GTAxK-64" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;ValidateUser&lt;/span&gt;&lt;div&gt;&lt;font color=&quot;#ff6933&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;IsDeleted or !IsEnabled&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1640" y="-310" width="170" height="70" as="geometry" />
         </mxCell>
         <mxCell id="1Izx30Ujem4wy27GTAxK-65" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;ValidateJob&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;font color=&quot;#ff6933&quot;&gt;IsLocked Or IsDeleted&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1434" y="-310" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="1Izx30Ujem4wy27GTAxK-66" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;ValidateJobDispatchDate&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="1Izx30Ujem4wy27GTAxK-66" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;ValidateJobDispatchDate&lt;/span&gt;&lt;div&gt;&lt;font color=&quot;#ff6933&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;DispatchDate &amp;lt; Time Now&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1860" y="-310" width="172.5" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="1Izx30Ujem4wy27GTAxK-67" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;ValidateJobForAssignment&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2110" y="-310" width="172.5" height="70" as="geometry" />
+        <mxCell id="257s2s46ZG8xQdeJs0_g-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1Izx30Ujem4wy27GTAxK-67" target="1Izx30Ujem4wy27GTAxK-65">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2153" y="-350" />
+              <mxPoint x="1514" y="-350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Izx30Ujem4wy27GTAxK-67" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;ValidateJobForAssignment&lt;/span&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font color=&quot;#ff6933&quot;&gt;Job ! pending | rejected | returnedToDepot&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font color=&quot;#ff6933&quot;&gt;Check for stocktake&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2100" y="-310" width="210" height="70" as="geometry" />
         </mxCell>
         <mxCell id="1Izx30Ujem4wy27GTAxK-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="1Izx30Ujem4wy27GTAxK-75" target="1Izx30Ujem4wy27GTAxK-78" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -451,8 +459,8 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1240" y="-140" />
-              <mxPoint x="1240" y="-360" />
-              <mxPoint x="2514" y="-360" />
+              <mxPoint x="1240" y="-370" />
+              <mxPoint x="2514" y="-370" />
             </Array>
           </mxGeometry>
         </mxCell>
