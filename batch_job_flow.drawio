@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-30T03:39:09.048Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="_5JL5dxIQMnxFaH4F8kq" version="24.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-03T22:26:01.862Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="XzLi__EvK5MZkIyQ3g3X" version="24.4.10" type="github">
   <diagram name="Page-1" id="SyXa-uzE85n85rMRMzLK">
-    <mxGraphModel dx="2449" dy="1454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1647" dy="1042" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -87,6 +87,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1Izx30Ujem4wy27GTAxK-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="1Izx30Ujem4wy27GTAxK-20" target="1Izx30Ujem4wy27GTAxK-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Txvz4aMJ-Cb-K3dLGXIG-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="1Izx30Ujem4wy27GTAxK-20" target="Txvz4aMJ-Cb-K3dLGXIG-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1Izx30Ujem4wy27GTAxK-20" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;AssignJob&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -488,10 +491,10 @@
           <mxGeometry x="730" y="210" width="250" height="110" as="geometry" />
         </mxCell>
         <mxCell id="257s2s46ZG8xQdeJs0_g-32" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Job Validator&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;labelPadding=50;imageVerticalAlign=middle;verticalAlign=top;fillColor=default;gradientColor=none;opacity=50;" parent="1" vertex="1">
-          <mxGeometry x="700" width="260" height="130" as="geometry" />
+          <mxGeometry x="580" width="260" height="130" as="geometry" />
         </mxCell>
         <mxCell id="257s2s46ZG8xQdeJs0_g-33" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;ValidateBatch&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="750" y="40" width="160" height="70" as="geometry" />
+          <mxGeometry x="630" y="40" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="257s2s46ZG8xQdeJs0_g-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="257s2s46ZG8xQdeJs0_g-35" target="1Izx30Ujem4wy27GTAxK-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -508,8 +511,14 @@
         <mxCell id="257s2s46ZG8xQdeJs0_g-41" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;PushJobUpdate&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="755" y="730" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="BNk33f6Wed8K2EBaSKIW-1" value="med_HlpCreateUpdateManifest.sp.sql&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;This stored procedure somewhat does the same thing&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;on an individual job level.&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;Need to decide if a batch equivalent should be created&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;Or use a variant of this where the line&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;, case when @HHCreated = 1&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;Is updated for the Inbound case&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;var manifestStateId = _autoPublishNewManifest ? (todayManifest ? _manifestStateForPublish : ManifestState.Available) : ManifestState.Building;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;in the ManifestProvider&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontStyle=1;labelBorderColor=default;fontColor=#0000FF;" vertex="1" parent="1">
+        <mxCell id="BNk33f6Wed8K2EBaSKIW-1" value="med_HlpCreateUpdateManifest.sp.sql&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;This stored procedure somewhat does the same thing&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;on an individual job level.&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;Need to decide if a batch equivalent should be created&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;Or use a variant of this where the line&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;, case when @HHCreated = 1&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;Is updated for the Inbound case&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;var manifestStateId = _autoPublishNewManifest ? (todayManifest ? _manifestStateForPublish : ManifestState.Available) : ManifestState.Building;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;in the ManifestProvider&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontStyle=1;labelBorderColor=default;fontColor=#0000FF;" parent="1" vertex="1">
           <mxGeometry x="3040" y="398.75" width="920" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Txvz4aMJ-Cb-K3dLGXIG-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;ASO Changes&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;labelPadding=50;imageVerticalAlign=middle;verticalAlign=top;fillColor=default;gradientColor=none;opacity=50;" vertex="1" parent="1">
+          <mxGeometry x="860" width="280" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Txvz4aMJ-Cb-K3dLGXIG-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;If assigned success, Job.WorkOrder.CanAutoAssign = false&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="40" width="260" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
