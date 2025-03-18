@@ -126,7 +126,7 @@
           <mxGeometry x="-140" y="160" width="240" height="215" as="geometry" />
         </mxCell>
         <mxCell id="YFmmI4BY76K4JnnpCuWu-33" value="Model Save" style="whiteSpace=wrap;html=1;align=center;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-110" y="295" width="170" height="40" as="geometry" />
+          <mxGeometry x="-105" y="295" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="YFmmI4BY76K4JnnpCuWu-34" value="Model Load" style="whiteSpace=wrap;html=1;align=center;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="-105" y="210" width="170" height="40" as="geometry" />
