@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="YFmmI4BY76K4JnnpCuWu-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Inbound API&lt;/b&gt;&lt;/font&gt;" style="html=1;whiteSpace=wrap;dashed=1;gradientColor=default;fillColor=none;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="146.78" y="150" width="410" height="340" as="geometry" />
+          <mxGeometry x="146.78" y="150" width="410" height="320" as="geometry" />
         </mxCell>
         <mxCell id="YFmmI4BY76K4JnnpCuWu-2" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Dispatch&lt;/b&gt;&lt;/span&gt;" style="html=1;whiteSpace=wrap;dashed=1;gradientColor=default;fillColor=none;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="630" y="180" width="670" height="270" as="geometry" />
@@ -201,8 +201,41 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="rtBuZWrgFB-SsXa5-KP_-35" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;Through Inbound API&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;If first time enabling/Model not exists in Azure,&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;then create new model.&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rtBuZWrgFB-SsXa5-KP_-28">
+          <mxGeometry x="-0.6862" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" y="29" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="rtBuZWrgFB-SsXa5-KP_-27" value="DepotEditForm&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Section for enabling models&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="1100" y="360" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rtBuZWrgFB-SsXa5-KP_-30" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Job schedular service&lt;/b&gt;&lt;/font&gt;" style="html=1;whiteSpace=wrap;dashed=1;gradientColor=default;fillColor=none;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="110" y="710" width="410" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="rtBuZWrgFB-SsXa5-KP_-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rtBuZWrgFB-SsXa5-KP_-31" target="rtBuZWrgFB-SsXa5-KP_-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="805" />
+              <mxPoint x="560" y="630" />
+              <mxPoint x="910" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rtBuZWrgFB-SsXa5-KP_-33" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;Read&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rtBuZWrgFB-SsXa5-KP_-32">
+          <mxGeometry x="-0.252" y="1" relative="1" as="geometry">
+            <mxPoint x="-2" y="43" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rtBuZWrgFB-SsXa5-KP_-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rtBuZWrgFB-SsXa5-KP_-31" target="YFmmI4BY76K4JnnpCuWu-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-180" y="805" />
+              <mxPoint x="-180" y="415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rtBuZWrgFB-SsXa5-KP_-31" value="If model scheduled for training" style="whiteSpace=wrap;html=1;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="190" y="770" width="240" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
