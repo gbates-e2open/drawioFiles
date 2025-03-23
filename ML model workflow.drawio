@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1">
   <diagram name="Page-1" id="nk3yhh7_28yMGZY1KQTT">
-    <mxGraphModel dx="2261" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2415" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="YFmmI4BY76K4JnnpCuWu-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;New microservice&lt;/b&gt;&lt;/font&gt;" style="html=1;whiteSpace=wrap;dashed=1;gradientColor=default;fillColor=none;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="40" y="140" width="516.78" height="730" as="geometry" />
+          <mxGeometry x="90" y="140" width="466.78" height="730" as="geometry" />
         </mxCell>
         <mxCell id="YFmmI4BY76K4JnnpCuWu-2" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Dispatch&lt;/b&gt;&lt;/span&gt;" style="html=1;whiteSpace=wrap;dashed=1;gradientColor=default;fillColor=none;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="630" y="140" width="670" height="320" as="geometry" />
@@ -123,13 +123,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="YFmmI4BY76K4JnnpCuWu-32" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;AZURE&lt;br&gt;(Model storage)&lt;/b&gt;&lt;/span&gt;" style="html=1;whiteSpace=wrap;dashed=1;gradientColor=default;fillColor=none;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="-140" y="140" width="240" height="235" as="geometry" />
+          <mxGeometry x="-210" y="137.5" width="240" height="235" as="geometry" />
         </mxCell>
         <mxCell id="YFmmI4BY76K4JnnpCuWu-33" value="Model Save" style="whiteSpace=wrap;html=1;align=center;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="-105" y="295" width="170" height="40" as="geometry" />
+          <mxGeometry x="-175" y="292.5" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="YFmmI4BY76K4JnnpCuWu-34" value="Model Load" style="whiteSpace=wrap;html=1;align=center;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="-105" y="210" width="170" height="40" as="geometry" />
+          <mxGeometry x="-175" y="207.5" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rtBuZWrgFB-SsXa5-KP_-1" value="dbo.ModelType" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="647" y="650" width="140" height="120" as="geometry" />
@@ -220,7 +220,7 @@
         </mxCell>
         <mxCell id="rtBuZWrgFB-SsXa5-KP_-33" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;Read&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="rtBuZWrgFB-SsXa5-KP_-32" vertex="1" connectable="0">
           <mxGeometry x="-0.252" y="1" relative="1" as="geometry">
-            <mxPoint x="-2" y="-25" as="offset" />
+            <mxPoint x="-2" y="53" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rtBuZWrgFB-SsXa5-KP_-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="rtBuZWrgFB-SsXa5-KP_-31" target="YFmmI4BY76K4JnnpCuWu-14" edge="1">
@@ -232,7 +232,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="rtBuZWrgFB-SsXa5-KP_-31" value="Model retraining" style="whiteSpace=wrap;html=1;align=center;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="105" y="770" width="240" height="70" as="geometry" />
+          <mxGeometry x="200" y="770" width="240" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
