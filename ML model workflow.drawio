@@ -209,21 +209,21 @@
         <mxCell id="rtBuZWrgFB-SsXa5-KP_-27" value="DepotEditForm&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Section for enabling models&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="1100" y="360" width="170" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="rtBuZWrgFB-SsXa5-KP_-30" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Job schedular service&lt;/b&gt;&lt;/font&gt;" style="html=1;whiteSpace=wrap;dashed=1;gradientColor=default;fillColor=none;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="110" y="710" width="410" height="190" as="geometry" />
+        <mxCell id="rtBuZWrgFB-SsXa5-KP_-30" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Job schedular service&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="html=1;whiteSpace=wrap;dashed=1;gradientColor=default;fillColor=none;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="20" y="710" width="410" height="190" as="geometry" />
         </mxCell>
         <mxCell id="rtBuZWrgFB-SsXa5-KP_-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="rtBuZWrgFB-SsXa5-KP_-31" target="rtBuZWrgFB-SsXa5-KP_-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="560" y="805" />
-              <mxPoint x="560" y="630" />
+              <mxPoint x="530" y="805" />
+              <mxPoint x="530" y="630" />
               <mxPoint x="910" y="630" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="rtBuZWrgFB-SsXa5-KP_-33" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;Read&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="rtBuZWrgFB-SsXa5-KP_-32" vertex="1" connectable="0">
           <mxGeometry x="-0.252" y="1" relative="1" as="geometry">
-            <mxPoint x="-2" y="43" as="offset" />
+            <mxPoint x="-2" y="-25" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rtBuZWrgFB-SsXa5-KP_-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="rtBuZWrgFB-SsXa5-KP_-31" target="YFmmI4BY76K4JnnpCuWu-14" edge="1">
@@ -234,8 +234,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rtBuZWrgFB-SsXa5-KP_-31" value="If model scheduled for training" style="whiteSpace=wrap;html=1;align=center;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="190" y="770" width="240" height="70" as="geometry" />
+        <mxCell id="rtBuZWrgFB-SsXa5-KP_-31" value="If model scheduled for training,&lt;div&gt;invoke retraining&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="105" y="770" width="240" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
