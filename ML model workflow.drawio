@@ -226,13 +226,33 @@
         <mxCell id="rtBuZWrgFB-SsXa5-KP_-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="rtBuZWrgFB-SsXa5-KP_-31" target="YFmmI4BY76K4JnnpCuWu-14" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-180" y="805" />
+              <mxPoint x="180" y="780" />
+              <mxPoint x="-180" y="780" />
               <mxPoint x="-180" y="415" />
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="PqK_YZJ9idRnckHc3zUF-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rtBuZWrgFB-SsXa5-KP_-31" target="PqK_YZJ9idRnckHc3zUF-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="808" />
+              <mxPoint x="120" y="895" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="rtBuZWrgFB-SsXa5-KP_-31" value="Model retraining" style="whiteSpace=wrap;html=1;align=center;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="200" y="770" width="240" height="70" as="geometry" />
+          <mxGeometry x="180" y="755" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PqK_YZJ9idRnckHc3zUF-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PqK_YZJ9idRnckHc3zUF-1" target="YFmmI4BY76K4JnnpCuWu-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PqK_YZJ9idRnckHc3zUF-4" value="Stored result" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PqK_YZJ9idRnckHc3zUF-3">
+          <mxGeometry x="-0.6153" y="7" relative="1" as="geometry">
+            <mxPoint x="-46" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PqK_YZJ9idRnckHc3zUF-1" value="Cache retrained model results" style="whiteSpace=wrap;html=1;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="180" y="860" width="240" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
