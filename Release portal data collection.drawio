@@ -94,11 +94,29 @@
         <mxCell id="GeAgQett_E_SLnkHT2Mg-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#66FF66;" edge="1" parent="1" source="GeAgQett_E_SLnkHT2Mg-16" target="GeAgQett_E_SLnkHT2Mg-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="GeAgQett_E_SLnkHT2Mg-23" value="&lt;font style=&quot;font-size: 13px; color: rgb(102, 255, 102);&quot;&gt;Run upload&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GeAgQett_E_SLnkHT2Mg-20">
+          <mxGeometry x="0.0897" y="-2" relative="1" as="geometry">
+            <mxPoint x="2" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="GeAgQett_E_SLnkHT2Mg-16" value="B2BClient" style="html=1;whiteSpace=wrap;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="780" y="160" width="170" height="50" as="geometry" />
         </mxCell>
         <mxCell id="GeAgQett_E_SLnkHT2Mg-19" value="Snowflake" style="html=1;whiteSpace=wrap;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="780" y="270" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GeAgQett_E_SLnkHT2Mg-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;strokeColor=#66FF66;" edge="1" parent="1" source="GeAgQett_E_SLnkHT2Mg-13" target="GeAgQett_E_SLnkHT2Mg-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="823" y="20" />
+              <mxPoint x="907" y="20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GeAgQett_E_SLnkHT2Mg-22" value="&lt;font style=&quot;color: rgb(102, 255, 102); font-size: 13px;&quot;&gt;Get e2Snowflake.xml&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(102, 255, 102); font-size: 13px;&quot;&gt;config file to determine&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(102, 255, 102); font-size: 13px;&quot;&gt;environments Datacollection&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(102, 255, 102); font-size: 13px;&quot;&gt;to grab&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GeAgQett_E_SLnkHT2Mg-21">
+          <mxGeometry x="-0.1697" y="1" relative="1" as="geometry">
+            <mxPoint x="14" y="-39" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
