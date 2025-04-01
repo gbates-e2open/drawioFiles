@@ -175,7 +175,8 @@
             <Array as="points">
               <mxPoint x="-40" y="380" />
               <mxPoint x="-40" y="480" />
-              <mxPoint x="172" y="480" />
+              <mxPoint x="120" y="480" />
+              <mxPoint x="120" y="516" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -193,7 +194,7 @@
         <mxCell id="eI-NIGPQW_OnHmxQVv3K-5" value="Storage integration" style="whiteSpace=wrap;html=1;align=center;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="-305" y="495" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="eI-NIGPQW_OnHmxQVv3K-16" value="Handle enabling depot models" style="whiteSpace=wrap;html=1;align=center;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="eI-NIGPQW_OnHmxQVv3K-16" value="Handle enabling depot models + Scheduling" style="whiteSpace=wrap;html=1;align=center;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="330" y="700" width="186.61" height="55" as="geometry" />
         </mxCell>
       </root>
