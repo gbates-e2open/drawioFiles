@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.2">
   <diagram name="Page-1" id="nk3yhh7_28yMGZY1KQTT">
-    <mxGraphModel dx="2514" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2255" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -33,7 +33,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YFmmI4BY76K4JnnpCuWu-10" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;AWS&lt;br&gt;(Long term data storage)&lt;/b&gt;&lt;/span&gt;" style="html=1;whiteSpace=wrap;dashed=1;gradientColor=default;fillColor=none;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="YFmmI4BY76K4JnnpCuWu-10" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Snowflake - AWS&lt;br&gt;(Long term data storage)&lt;/b&gt;&lt;/span&gt;" style="html=1;whiteSpace=wrap;dashed=1;gradientColor=default;fillColor=none;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="650" y="525" width="540" height="315" as="geometry" />
         </mxCell>
         <mxCell id="YFmmI4BY76K4JnnpCuWu-11" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" source="YFmmI4BY76K4JnnpCuWu-4" target="YFmmI4BY76K4JnnpCuWu-13" edge="1">
