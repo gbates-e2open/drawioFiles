@@ -20,7 +20,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-6" value="Use historical data?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;fontStyle=1" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-6" value="Use Driver pattern" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;fontStyle=1" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="145" y="170" width="150" height="110" as="geometry" />
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-7" value="Therefore using K means clustering" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -38,11 +38,12 @@
             <mxPoint x="50" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GMCqHktTDshxWYG570UI-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-10" target="GMCqHktTDshxWYG570UI-2">
+        <mxCell id="GMCqHktTDshxWYG570UI-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;endArrow=classicThin;endFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-10" target="GMCqHktTDshxWYG570UI-2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-150" y="225" />
-              <mxPoint x="-150" y="607" />
+              <mxPoint x="-150" y="540" />
+              <mxPoint x="183" y="540" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -58,7 +59,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-12" value="Specify section count" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fontStyle=1" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="170" y="320" width="120" height="40" as="geometry" />
+          <mxGeometry x="160.06" y="320" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GMCqHktTDshxWYG570UI-1" value="Yes" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-7" target="WIyWlLk6GJQsqaUBKTNV-12">
           <mxGeometry x="0.0031" y="20" relative="1" as="geometry">
@@ -68,36 +69,37 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GMCqHktTDshxWYG570UI-2" value="Day Of week selection" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="154.94" y="580" width="150" height="110" as="geometry" />
+          <mxGeometry x="145" y="510" width="150" height="110" as="geometry" />
         </mxCell>
         <mxCell id="GMCqHktTDshxWYG570UI-4" value="All of the days" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.07;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="GMCqHktTDshxWYG570UI-2" target="GMCqHktTDshxWYG570UI-7">
           <mxGeometry x="0.1429" relative="1" as="geometry">
             <mxPoint as="offset" />
-            <mxPoint x="479.94" y="355" as="sourcePoint" />
-            <mxPoint x="109.94" y="870" as="targetPoint" />
+            <mxPoint x="479.94" y="285" as="sourcePoint" />
+            <mxPoint x="109.94" y="800" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="59.94" y="635" />
-              <mxPoint x="59.94" y="872" />
+              <mxPoint x="59.94" y="565" />
+              <mxPoint x="59.94" y="802" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="GMCqHktTDshxWYG570UI-5" value="Which days of week&lt;div&gt;(mutli or single select)&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="319.94" y="705" width="135" height="90" as="geometry" />
+          <mxGeometry x="300" y="635" width="154.94" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="GMCqHktTDshxWYG570UI-6" value="Specific days of the week" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="GMCqHktTDshxWYG570UI-2" target="GMCqHktTDshxWYG570UI-5">
+        <mxCell id="GMCqHktTDshxWYG570UI-6" value="Specific days of the week" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="GMCqHktTDshxWYG570UI-2">
           <mxGeometry x="0.4098" y="3" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
-            <mxPoint x="164.94" y="645" as="sourcePoint" />
-            <mxPoint x="119.94" y="740" as="targetPoint" />
+            <mxPoint x="155" y="575" as="sourcePoint" />
+            <mxPoint x="377.50000000000006" y="634.9999999999998" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GMCqHktTDshxWYG570UI-7" value="Send to ML API" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="169.94" y="840" width="120" height="80" as="geometry" />
+          <mxGeometry x="160" y="770" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="GMCqHktTDshxWYG570UI-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.875;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="GMCqHktTDshxWYG570UI-5" target="GMCqHktTDshxWYG570UI-7">
+        <mxCell id="GMCqHktTDshxWYG570UI-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.875;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="GMCqHktTDshxWYG570UI-5" target="GMCqHktTDshxWYG570UI-7">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="770" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="387.94" y="880" />
+              <mxPoint x="377" y="810" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -110,13 +112,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GMCqHktTDshxWYG570UI-18" value="Normalise?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="155" y="420" width="150" height="110" as="geometry" />
+          <mxGeometry x="145.06" y="380" width="150" height="110" as="geometry" />
         </mxCell>
         <mxCell id="GMCqHktTDshxWYG570UI-21" value="On This side.&lt;div&gt;Order sections by approximate completon time for jobs based on the sections. they come from.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-100" y="380" width="170" height="130" as="geometry" />
         </mxCell>
         <mxCell id="GMCqHktTDshxWYG570UI-22" value="Order sections based on the centeroids of the generated sections." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="370" y="400" width="170" height="130" as="geometry" />
+          <mxGeometry x="375" y="380" width="170" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
