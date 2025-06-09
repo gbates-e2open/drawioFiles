@@ -1,9 +1,57 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.4">
   <diagram name="Page-1" id="ecALk19nxJOC3Xn3FD4q">
-    <mxGraphModel>
+    <mxGraphModel dx="1501" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="eWG6Nm6A6z0M9totMhgj-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Database&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Stored procedure file per widget&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="80" y="240" width="190" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="eWG6Nm6A6z0M9totMhgj-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eWG6Nm6A6z0M9totMhgj-2" target="eWG6Nm6A6z0M9totMhgj-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eWG6Nm6A6z0M9totMhgj-2" value="&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Inbound&lt;/font&gt;&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;b&gt;OperationalDataController.cs&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;New endpoint per widget.&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="340" y="240" width="190" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="eWG6Nm6A6z0M9totMhgj-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eWG6Nm6A6z0M9totMhgj-5" target="eWG6Nm6A6z0M9totMhgj-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eWG6Nm6A6z0M9totMhgj-5" value="&lt;b&gt;OperationalApi&lt;/b&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="630" y="270" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eWG6Nm6A6z0M9totMhgj-12" value="&lt;b style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;OperationalDashboardStore&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;div&gt;One for each widget choosen&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;labelPadding=50;imageVerticalAlign=middle;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="770" y="140" width="220" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="eWG6Nm6A6z0M9totMhgj-8" value="&lt;b&gt;OperationalDashboardStore&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="235" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="eWG6Nm6A6z0M9totMhgj-9" value="&lt;b&gt;Stores&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="eWG6Nm6A6z0M9totMhgj-8">
+          <mxGeometry y="30" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eWG6Nm6A6z0M9totMhgj-10" value="&lt;b&gt;Widgets (includes blanks which is generated during runtime, and are not saved)&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="eWG6Nm6A6z0M9totMhgj-8">
+          <mxGeometry y="60" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="eWG6Nm6A6z0M9totMhgj-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="eWG6Nm6A6z0M9totMhgj-9" target="eWG6Nm6A6z0M9totMhgj-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eWG6Nm6A6z0M9totMhgj-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eWG6Nm6A6z0M9totMhgj-14" target="eWG6Nm6A6z0M9totMhgj-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eWG6Nm6A6z0M9totMhgj-14" value="Job Status Store" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="825" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eWG6Nm6A6z0M9totMhgj-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eWG6Nm6A6z0M9totMhgj-15" target="eWG6Nm6A6z0M9totMhgj-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eWG6Nm6A6z0M9totMhgj-15" value="Manifest Status Store" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eWG6Nm6A6z0M9totMhgj-22" value="&lt;b&gt;OperationalDashboardWidgetLayout&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="602" y="510" width="343" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eWG6Nm6A6z0M9totMhgj-23" value="&#xa;&lt;b style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;OperationalDashboardStore&lt;/b&gt;&#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;labelPadding=50;imageVerticalAlign=middle;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="420" width="220" height="280" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
