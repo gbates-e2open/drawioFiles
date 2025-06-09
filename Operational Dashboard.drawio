@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.4">
   <diagram name="Page-1" id="ecALk19nxJOC3Xn3FD4q">
-    <mxGraphModel dx="1501" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2037" dy="1061" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -49,7 +49,7 @@
         <mxCell id="eWG6Nm6A6z0M9totMhgj-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eWG6Nm6A6z0M9totMhgj-22" target="eWG6Nm6A6z0M9totMhgj-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eWG6Nm6A6z0M9totMhgj-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eWG6Nm6A6z0M9totMhgj-22" target="eWG6Nm6A6z0M9totMhgj-27">
+        <mxCell id="eWG6Nm6A6z0M9totMhgj-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="eWG6Nm6A6z0M9totMhgj-22" target="eWG6Nm6A6z0M9totMhgj-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eWG6Nm6A6z0M9totMhgj-22" value="&lt;b&gt;OperationalDashboardPage&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -68,19 +68,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eWG6Nm6A6z0M9totMhgj-27" value="&lt;b&gt;WidgetEditor&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1430" y="265" width="200" height="60" as="geometry" />
+          <mxGeometry x="1370" y="265" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eWG6Nm6A6z0M9totMhgj-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eWG6Nm6A6z0M9totMhgj-28" target="eWG6Nm6A6z0M9totMhgj-46">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eWG6Nm6A6z0M9totMhgj-28" value="&lt;b&gt;WidgetEditor&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;(Slide out with the various widget properties)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;DataPointsSection()&lt;/div&gt;&lt;div&gt;is a switch case which renders the various widget type specific model details&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1690" y="170" width="200" height="140" as="geometry" />
+          <mxGeometry x="1610" y="153.75" width="200" height="140" as="geometry" />
         </mxCell>
         <mxCell id="eWG6Nm6A6z0M9totMhgj-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eWG6Nm6A6z0M9totMhgj-29" target="eWG6Nm6A6z0M9totMhgj-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eWG6Nm6A6z0M9totMhgj-29" value="&lt;b&gt;WidgetEditorDisplay&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;(Provides an example of the widget)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1690" y="365" width="200" height="60" as="geometry" />
+          <mxGeometry x="1610" y="348.75" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eWG6Nm6A6z0M9totMhgj-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eWG6Nm6A6z0M9totMhgj-30" target="eWG6Nm6A6z0M9totMhgj-26">
           <mxGeometry relative="1" as="geometry" />
@@ -117,7 +117,7 @@
           <mxGeometry x="1497.5" y="920" width="225" height="110" as="geometry" />
         </mxCell>
         <mxCell id="eWG6Nm6A6z0M9totMhgj-46" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Widget Editor&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;E.g. JobStatusDataPointsSection&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;ManifestStatusDataPointSection&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Is the specific data points for the widget types&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;labelPadding=50;imageVerticalAlign=middle;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="2000" y="185" width="225" height="110" as="geometry" />
+          <mxGeometry x="1875" y="151.25" width="225" height="145" as="geometry" />
         </mxCell>
         <mxCell id="eWG6Nm6A6z0M9totMhgj-48" value="&lt;b&gt;Widget&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;(Base class for all the widgets to go off, contains widget positional information and consistant data that all the widgets use)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="145" y="520" width="290" height="90" as="geometry" />
