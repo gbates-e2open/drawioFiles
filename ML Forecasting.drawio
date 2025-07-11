@@ -1,9 +1,18 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.1">
   <diagram name="Page-1" id="RzzoXvsmsq_T2A-bgM_X">
-    <mxGraphModel>
+    <mxGraphModel dx="1426" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="4Ur8TzYngbyb2dsIORtj-1" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Dispatch&lt;/b&gt;&lt;/span&gt;" style="html=1;whiteSpace=wrap;dashed=1;gradientColor=default;fillColor=none;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="20" y="80" width="590" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="4Ur8TzYngbyb2dsIORtj-2" value="Week in Review&lt;div&gt;Widget&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="70" y="190" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4Ur8TzYngbyb2dsIORtj-3" value="Week in Review&amp;nbsp;&lt;div&gt;Widget Store&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="380" y="190" width="170" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
