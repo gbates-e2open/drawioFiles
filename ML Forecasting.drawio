@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.6">
   <diagram name="Page-1" id="RzzoXvsmsq_T2A-bgM_X">
-    <mxGraphModel dx="1426" dy="1912" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="2032" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -59,8 +59,8 @@
             <mxPoint x="-123" y="9" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4Ur8TzYngbyb2dsIORtj-16" value="Training schedular&lt;div&gt;(Runs every week at 6pm Sunday say)&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="1060" y="290" width="270" height="60" as="geometry" />
+        <mxCell id="4Ur8TzYngbyb2dsIORtj-16" value="OutboundDatacollection&lt;div&gt;(Runs polling data in the Datacollection gic settings)&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="290" width="330" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4Ur8TzYngbyb2dsIORtj-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4Ur8TzYngbyb2dsIORtj-17" target="4Ur8TzYngbyb2dsIORtj-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -74,7 +74,7 @@
         <mxCell id="4Ur8TzYngbyb2dsIORtj-20" value="Update Dim Route table" style="whiteSpace=wrap;html=1;align=center;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="780" y="530" width="200" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="hjGBewjfkIwA1qilfWFP-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4Ur8TzYngbyb2dsIORtj-22" target="hjGBewjfkIwA1qilfWFP-1">
+        <mxCell id="hjGBewjfkIwA1qilfWFP-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4Ur8TzYngbyb2dsIORtj-22" target="hjGBewjfkIwA1qilfWFP-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4Ur8TzYngbyb2dsIORtj-22" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Read from Dim Route table to determine what forecast models to&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: 14px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Train/retrain&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -97,16 +97,16 @@
         <mxCell id="4Ur8TzYngbyb2dsIORtj-32" value="Model Type Watermark table" style="whiteSpace=wrap;html=1;align=center;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="627" y="295" width="200" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="hjGBewjfkIwA1qilfWFP-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="hjGBewjfkIwA1qilfWFP-1" target="hjGBewjfkIwA1qilfWFP-2">
+        <mxCell id="hjGBewjfkIwA1qilfWFP-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="hjGBewjfkIwA1qilfWFP-1" target="hjGBewjfkIwA1qilfWFP-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hjGBewjfkIwA1qilfWFP-1" value="Update Forecast data table" style="whiteSpace=wrap;html=1;align=center;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="hjGBewjfkIwA1qilfWFP-1" value="Update Forecast data table" style="whiteSpace=wrap;html=1;align=center;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="780" y="700" width="200" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="hjGBewjfkIwA1qilfWFP-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hjGBewjfkIwA1qilfWFP-2" target="4Ur8TzYngbyb2dsIORtj-25">
+        <mxCell id="hjGBewjfkIwA1qilfWFP-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="hjGBewjfkIwA1qilfWFP-2" target="4Ur8TzYngbyb2dsIORtj-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hjGBewjfkIwA1qilfWFP-2" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Read from the forecast data table depot at a time.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hjGBewjfkIwA1qilfWFP-2" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Read from the forecast data table depot at a time.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1045" y="770" width="300" height="80" as="geometry" />
         </mxCell>
       </root>
