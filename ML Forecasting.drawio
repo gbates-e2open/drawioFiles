@@ -24,6 +24,9 @@
         <mxCell id="4Ur8TzYngbyb2dsIORtj-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="4Ur8TzYngbyb2dsIORtj-3" target="4Ur8TzYngbyb2dsIORtj-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="S5I10fTuyC09FWXP1MQP-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4Ur8TzYngbyb2dsIORtj-3" target="S5I10fTuyC09FWXP1MQP-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="4Ur8TzYngbyb2dsIORtj-3" value="Week in Review&amp;nbsp;&lt;div&gt;Widget Store&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="300" y="190" width="170" height="50" as="geometry" />
         </mxCell>
