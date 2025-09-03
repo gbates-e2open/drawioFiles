@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="V3oIw_tFHmD7RHKYPGYt-1" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Snowflake Service&lt;/b&gt;&lt;/span&gt;" style="html=1;whiteSpace=wrap;dashed=1;gradientColor=default;fillColor=none;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="380" y="90" width="560" height="780" as="geometry" />
+          <mxGeometry x="370" y="90" width="570" height="780" as="geometry" />
         </mxCell>
         <mxCell id="V3oIw_tFHmD7RHKYPGYt-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="V3oIw_tFHmD7RHKYPGYt-4" target="V3oIw_tFHmD7RHKYPGYt-6">
           <mxGeometry relative="1" as="geometry" />
@@ -58,19 +58,27 @@
           <mxGeometry x="497" y="530" width="330" height="80" as="geometry" />
         </mxCell>
         <mxCell id="V3oIw_tFHmD7RHKYPGYt-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="V3oIw_tFHmD7RHKYPGYt-16" target="V3oIw_tFHmD7RHKYPGYt-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="760" />
+              <mxPoint x="510" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V3oIw_tFHmD7RHKYPGYt-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="V3oIw_tFHmD7RHKYPGYt-16" target="V3oIw_tFHmD7RHKYPGYt-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="V3oIw_tFHmD7RHKYPGYt-16" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;New workorders are broadcasted to all&lt;br&gt;Data Collection Processor&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="497" y="660" width="330" height="80" as="geometry" />
         </mxCell>
         <mxCell id="V3oIw_tFHmD7RHKYPGYt-18" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Other registered Data collection processors.&lt;br&gt;Examples: Driver/Vehicle forecasting&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="765" width="300" height="80" as="geometry" />
+          <mxGeometry x="390" y="780" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="V3oIw_tFHmD7RHKYPGYt-20" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Snowflake Tables&lt;/b&gt;&lt;/span&gt;" style="html=1;whiteSpace=wrap;dashed=1;gradientColor=default;fillColor=none;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="990" y="90" width="330" height="780" as="geometry" />
         </mxCell>
         <mxCell id="V3oIw_tFHmD7RHKYPGYt-19" value="Forecast Actual" style="whiteSpace=wrap;html=1;align=center;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="1055" y="780" width="200" height="50" as="geometry" />
+          <mxGeometry x="1055" y="795" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="V3oIw_tFHmD7RHKYPGYt-21" value="DIM Tables&lt;div&gt;Routes + Manifests + Packages&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="1019.5" y="240" width="271" height="50" as="geometry" />
@@ -85,6 +93,17 @@
           <mxGeometry x="920" y="450" as="geometry">
             <mxPoint x="-12" y="7" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="V3oIw_tFHmD7RHKYPGYt-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="V3oIw_tFHmD7RHKYPGYt-31" target="V3oIw_tFHmD7RHKYPGYt-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V3oIw_tFHmD7RHKYPGYt-34" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Upsert&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="V3oIw_tFHmD7RHKYPGYt-33">
+          <mxGeometry x="-0.3778" y="2" relative="1" as="geometry">
+            <mxPoint x="8" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V3oIw_tFHmD7RHKYPGYt-31" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Forecast Data Processor&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="780" width="240" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
