@@ -1,29 +1,44 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.2">
   <diagram name="Page-1" id="cnK5hEi3o949ifszPvcE">
-    <mxGraphModel dx="1678" dy="1015" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2377" dy="1438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="idVEkqdJiaS7oOyJCOuy-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;Snowflake Service&lt;/b&gt;&lt;/font&gt;" style="html=1;whiteSpace=wrap;dashed=1;gradientColor=default;fillColor=none;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="50" y="70" width="2210" height="350" as="geometry" />
+          <mxGeometry x="80" y="140" width="1250" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="idVEkqdJiaS7oOyJCOuy-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="idVEkqdJiaS7oOyJCOuy-2" target="idVEkqdJiaS7oOyJCOuy-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="idVEkqdJiaS7oOyJCOuy-2" value="Scheduled forecasting data production&lt;div&gt;(Runs on a configured day of the week and hour)&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="130" y="190" width="330" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="idVEkqdJiaS7oOyJCOuy-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="idVEkqdJiaS7oOyJCOuy-3" target="idVEkqdJiaS7oOyJCOuy-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="idVEkqdJiaS7oOyJCOuy-3" value="Obtains the prediction targets from Dim Route table." style="whiteSpace=wrap;html=1;align=center;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="530" y="190" width="330" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="idVEkqdJiaS7oOyJCOuy-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="idVEkqdJiaS7oOyJCOuy-4" target="idVEkqdJiaS7oOyJCOuy-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="idVEkqdJiaS7oOyJCOuy-4" value="Grabs all of the necessary forecasting information (workorders) a depot at a time" style="whiteSpace=wrap;html=1;align=center;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="1270" y="190" width="330" height="60" as="geometry" />
+          <mxGeometry x="930" y="300" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="idVEkqdJiaS7oOyJCOuy-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="idVEkqdJiaS7oOyJCOuy-6" target="idVEkqdJiaS7oOyJCOuy-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="idVEkqdJiaS7oOyJCOuy-6" value="Runs the categorical forecasting model for the following week for each route." style="whiteSpace=wrap;html=1;align=center;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="1650" y="190" width="330" height="60" as="geometry" />
+          <mxGeometry x="530" y="300" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="idVEkqdJiaS7oOyJCOuy-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="idVEkqdJiaS7oOyJCOuy-7" target="idVEkqdJiaS7oOyJCOuy-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="idVEkqdJiaS7oOyJCOuy-7" value="Group the routes per depot." style="whiteSpace=wrap;html=1;align=center;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="890" y="190" width="330" height="60" as="geometry" />
+          <mxGeometry x="930" y="190" width="330" height="60" as="geometry" />
         </mxCell>
         <mxCell id="idVEkqdJiaS7oOyJCOuy-8" value="Store the forecast results in the Forecast Predictions table." style="whiteSpace=wrap;html=1;align=center;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="2040" y="190" width="330" height="60" as="geometry" />
+          <mxGeometry x="130" y="300" width="330" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
